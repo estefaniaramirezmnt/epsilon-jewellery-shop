@@ -1,0 +1,12 @@
+.header {
+  background-color: #89967C;
+  padding: 2vh;
+}
+
+.header-logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 280px;
+  padding: 0;
+
+}
