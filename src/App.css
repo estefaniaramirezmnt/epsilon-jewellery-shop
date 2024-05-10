@@ -1,15 +1,16 @@
 .header {
   background-color: #89967C;
-  padding: 2vh;
+  /* opacity: 0.9; */
+  padding: 1vh;
 }
 
 .header-logo {
   display: block;
+  filter: blur(5px);
   margin: 0 auto;
   max-width: 280px;
   padding: 0;
-  filter: blur(5px);
-  transition: all 1.5s ease-in-out;
+  transition: all 2s ease-in-out;
 }
 
 .header-logo.loaded {

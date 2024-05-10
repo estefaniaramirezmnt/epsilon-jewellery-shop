@@ -7,7 +7,7 @@ export default function Header() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoaded(true);
-    }, 1000);
+    }, 600);
   }, []);
 
   return (
