@@ -1,7 +1,7 @@
 .header {
   background-color: #89967C;
   /* opacity: 0.9; */
-  padding: 1vh;
+  padding: 10px 0;
 }
 
 .header-logo {
@@ -14,5 +14,29 @@
 }
 
 .header-logo.loaded {
-  filter: none; 
+  filter: none;
+}
+
+@media (max-width: 1300px) {
+  .header-logo {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header-logo {
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 800px) {
+  .header-logo {
+    max-width: 120px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-logo {
+    max-width: 100px;
+  }
 }
