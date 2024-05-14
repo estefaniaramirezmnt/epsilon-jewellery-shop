@@ -749,3 +749,12 @@ video {
     padding-right: 16rem;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  @media (min-width: 768px) {
+    .dark\:md\:hover\:bg-fuchsia-600:hover {
+      --tw-bg-opacity: 1;
+      background-color: rgb(192 38 211 / var(--tw-bg-opacity));
+    }
+  }
+}
