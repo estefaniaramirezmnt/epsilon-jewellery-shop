@@ -9,7 +9,7 @@ export default function Navbar() {
         <li>Earrings</li>
         <li>Contact</li>
       </ul>
-      
+
       <button className="space-y-1 group md:hidden">
         <div className="w-6 h-1 bg-white"></div>
         <div className="w-6 h-1 bg-white"></div>
