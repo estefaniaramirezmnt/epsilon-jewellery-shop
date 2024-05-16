@@ -156,7 +156,7 @@ body {
     opacity: 0;
     max-height: 0;
     overflow: hidden;
-    transition: opacity 0.5s, max-height 0.5s;
+    transition: opacity 0.65s, max-height 0.65s;
   }
 
   .navbar-menu-responsive.open {
