@@ -1,9 +1,10 @@
 import React from "react";
+// import "../App.css";
 
 export default function Navbar() {
   return (
-    <div className="w-screen flex justify-center navbar-menu">
-      <ul className="hidden md:flex navbar-list">
+    <div className="navbar-menu">
+      <ul className="navbar-list">
         <li>Home</li>
         <li>About</li>
         <li>Earrings</li>

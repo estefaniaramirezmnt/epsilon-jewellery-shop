@@ -1,3 +1,7 @@
+body {
+  background-color: #2a2626;
+}
+
 .header {
   background-color: #89967C;
   padding: 10px 0;
@@ -14,6 +18,11 @@
 
 .header-logo.loaded {
   filter: none;
+}
+
+.navbar-menu {
+  display: block;
+  text-align: center;
 }
 
 .navbar-list {
@@ -45,10 +54,6 @@
   width: 100%;
 }
 
-.burguer-menu {
-  border: 2px solid red; 
-}
-
 @media (max-width: 1300px) {
   .header-logo {
     max-width: 200px;
@@ -67,11 +72,11 @@
   }
 }
 
-@media (max-width: 767px) {
-  .header-logo {
-    display: inline;
-    margin-left: 90px;
+@media (max-width: 768px) {
+  .navbar-menu {
+    display: none;
   }
+
 }
 
 @media (max-width: 600px) {
