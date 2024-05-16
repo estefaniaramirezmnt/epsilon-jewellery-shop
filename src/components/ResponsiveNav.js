@@ -1,6 +1,6 @@
 import React from "react";
 
-function RightNav({ open }) {
+function ResponsiveNav({ open }) {
   return (
     <div className={`navbar-menu-responsive ${open ? "open" : ""}`}>
       <ul className="navbar-list-responsive">
@@ -13,4 +13,4 @@ function RightNav({ open }) {
   );
 }
 
-export default RightNav;
+export default ResponsiveNav;

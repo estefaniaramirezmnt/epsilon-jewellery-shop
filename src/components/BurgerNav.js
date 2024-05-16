@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import RightNav from "./RightNav";
+import ResponsiveNav from "./ResponsiveNav";
 
 function BurgerNav() {
   const [open, setOpen] = useState(false);
@@ -14,7 +14,7 @@ function BurgerNav() {
         <div></div>
         <div></div>
       </div>
-      <RightNav open={open} />
+      <ResponsiveNav open={open} />
     </div>
   );
 }
