@@ -1,13 +1,19 @@
-import React from 'react'
+import React, { useState } from "react";
 
 function BurgerNav() {
+  const [open, setOpen] = useState(false);
+
   return (
-    <div className='styled-burguer'>
-        <div></div>
-        <div></div>
-        <div></div>
+    <div
+      className={`burger ${open ? "open" : ""}`}
+      onClick={() => setOpen(!open)}
+    >
+      {" "}
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
-  )
+  );
 }
 
-export default BurgerNav
+export default BurgerNav;
