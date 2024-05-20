@@ -10,14 +10,7 @@ import Contact from "./components/pages/Contact";
 function App() {
   return (
     <div className="bg-[#181818] w-screen h-screen overflow-hidden">
-      <Header />
-      <nav className="navbar-menu">
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/earrings">Earrings</Link>
-        <Link to="/contact">Contact</Link>
-      </nav>
-        
+      <Header />        
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
