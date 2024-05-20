@@ -1,14 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function ResponsiveNav({ open }) {
   return (
     <div className={`navbar-menu-responsive ${open ? "open" : ""}`}>
-      <ul className="navbar-list-responsive">
-        <li>Home</li>
-        <li>About</li>
-        <li>Earrings</li>
-        <li>Contact</li>
-      </ul>
+      <nav className="navbar-list-responsive">
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/earrings">Earrings</Link>
+        <Link to="/contact">Contact</Link>
+      </nav>
     </div>
   );
 }

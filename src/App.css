@@ -43,9 +43,9 @@ body {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -3px;
+  bottom: 0px;
   width: 0;
-  height: 3px;
+  height: 2px;
   background-color: #000;
   transition: width 0.3s ease;
 }
@@ -60,10 +60,10 @@ body {
   color: #000;
 }
 
-.navbar-list a:active,
+/* .navbar-list a:active,
 .navbar-list-responsive a:active {
-  color: #000 !important;
-}
+  color: #000;
+} */
 
 /* Responsive navbar */
 
@@ -74,16 +74,17 @@ body {
   padding: 5px;
 }
 
-.navbar-list-responsive li {
+.navbar-list-responsive a {
   display: block;
   margin: 70px auto;
   max-width: fit-content;
   padding: 0px 5px;
   position: relative;
   text-align: center;
+  text-decoration: none;
 }
 
-.navbar-list-responsive li::after {
+.navbar-list-responsive a::after {
   bottom: -6px;
 }
 
