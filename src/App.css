@@ -61,9 +61,16 @@ body {
 }
 
 .navbar-list a.active,
-.navbar-list-responsive a.active{
-  color: white; 
+.navbar-list-responsive a.active {
+  color: white;
 }
+
+.navbar-list a.active:after,
+.navbar-list-responsive a.active::after {
+  background-color: white;
+}
+
+
 /* Responsive navbar */
 
 .navbar-list-responsive {
