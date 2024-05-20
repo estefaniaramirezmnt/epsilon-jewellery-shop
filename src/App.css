@@ -60,15 +60,14 @@ body {
   color: #000;
 }
 
-/* .navbar-list a:active,
-.navbar-list-responsive a:active {
-  color: #000;
-} */
-
+.navbar-list a.active,
+.navbar-list-responsive a.active{
+  color: white; 
+}
 /* Responsive navbar */
 
 .navbar-list-responsive {
-  background-color: rgba(37, 37, 37, 0.6); /* Mueve el color de fondo al contenedor padre */
+  background-color: rgba(37, 37, 37, 0.6);
   list-style-type: none;
   margin: 0px;
   padding: 5px;
@@ -85,7 +84,7 @@ body {
 }
 
 .navbar-list-responsive a::after {
-  bottom: -6px;
+  bottom: -4px;
 }
 
 /* Burger.css */
