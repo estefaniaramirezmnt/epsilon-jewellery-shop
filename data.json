@@ -1,0 +1,77 @@
+[
+  {
+    "earring-code": "ER-001",
+    "caracteriscitcs": {
+      "materials": {
+        "earring": "gold",
+        "glass-beads": "yellow"
+      },
+      "color": "yellow",
+      "detail-color": "white",
+      "size": "small"
+    },
+    "status": "available",
+    "price": 100,
+    "img-code": "ER-001"
+  },
+  {
+    "earring-code": "ER-001",
+    "caracteriscitcs": {
+      "materials": {
+        "earring": "gold",
+        "glass-beads": "yellow"
+      },
+      "color": "yellow",
+      "detail-color": "white",
+      "size": "small"
+    },
+    "status": "available",
+    "price": 100,
+    "img-code": "ER-001"
+  },
+  {
+    "earring-code": "ER-001",
+    "caracteriscitcs": {
+      "materials": {
+        "earring": "gold",
+        "glass-beads": "yellow"
+      },
+      "color": "yellow",
+      "detail-color": "white",
+      "size": "small"
+    },
+    "status": "available",
+    "price": 100,
+    "img-code": "ER-001"
+  },
+  {
+    "earring-code": "ER-001",
+    "caracteriscitcs": {
+      "materials": {
+        "earring": "gold",
+        "glass-beads": "yellow"
+      },
+      "color": "yellow",
+      "detail-color": "white",
+      "size": "small"
+    },
+    "status": "available",
+    "price": 100,
+    "img-code": "ER-001"
+  },
+  {
+    "earring-code": "ER-001",
+    "caracteriscitcs": {
+      "materials": {
+        "earring": "gold",
+        "glass-beads": "yellow"
+      },
+      "color": "yellow",
+      "detail-color": "white",
+      "size": "small"
+    },
+    "status": "available",
+    "price": 100,
+    "img-code": "ER-001"
+  }
+]
