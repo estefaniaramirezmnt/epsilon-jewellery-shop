@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a project dedicated to show a collection of handcrafted earrings of unique designs. The project showcases a variety of earrings, each with its own image, name, and price. Users can view the collection, click on individual items to see more details. The shop is designed to provide a dynamic and interactive user experience, allowing users to explore the collection and interact with the items.
+This is a project in progress dedicated to show a collection of handcrafted earrings of unique designs. The project showcases a variety of earrings, each with its own image, name, and price. Users can view the collection, click on individual items to see more details. The shop is designed to provide a dynamic and interactive user experience, allowing users to explore the collection and interact with the items.
 
 
 ## Main Technology Used
